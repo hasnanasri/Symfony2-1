@@ -1,0 +1,8 @@
+AcmeStoreBundle_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: AcmeStoreBundle:Default:index }
+    
+    
+#AcmeStoreBundle_createpage:
+#    pattern:  /store/new
+#    defaults: { _controller: AcmeStoreBundle:Default:create }

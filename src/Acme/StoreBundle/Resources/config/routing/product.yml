@@ -1,0 +1,30 @@
+store:
+    pattern:  /
+    defaults: { _controller: "AcmeStoreBundle:Product:index" }
+
+store_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "AcmeStoreBundle:Product:show" }
+
+store_new:
+    pattern:  /new
+    defaults: { _controller: "AcmeStoreBundle:Product:new" }
+
+store_create:
+    pattern:  /create
+    defaults: { _controller: "AcmeStoreBundle:Product:create" }
+    requirements: { _method: post }
+
+store_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "AcmeStoreBundle:Product:edit" }
+
+store_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "AcmeStoreBundle:Product:update" }
+    requirements: { _method: post }
+
+store_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "AcmeStoreBundle:Product:delete" }
+    requirements: { _method: post }

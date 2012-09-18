@@ -1,0 +1,15 @@
+AcmeStoreBundle:
+    resource: "@AcmeStoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+# Internal routing configuration to handle ESI
+#_internal:
+#   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
+#   prefix:   /_internal
+AcmeHelloBundle:
+    resource: "@AcmeHelloBundle/Resources/config/routing.yml"
+    prefix:   /
+    
+AcmeStoreBundle_store:
+    resource: "@AcmeStoreBundle/Resources/config/routing/product.yml"
+    prefix:   /store

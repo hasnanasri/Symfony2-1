@@ -1,6 +1,3 @@
-Symfony Standard Edition
-========================
-
 Welcome to the Symfony Standard Edition - a fully-functional Symfony2
 application that you can use as the skeleton for your new app. If you want
 to learn more about the features included, see the "What's Inside?" section.
@@ -145,3 +142,9 @@ The Symfony Standard Edition comes pre-configured with the following bundles:
 * **AcmeDemoBundle** (in dev/test env) - A demo bundle with some example code
 
 Enjoy!
+=======
+Symfon2-Sample
+==============
+
+Symfony 2 Sample created for self learning 
+
